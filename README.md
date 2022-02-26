@@ -1,0 +1,1 @@
+# README-generato-node.js
