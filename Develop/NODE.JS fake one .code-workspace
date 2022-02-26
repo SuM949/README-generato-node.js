@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "README-generato-node.js",
+			"path": ".."
+		},
+		{
+			"name": "Develop",
+			"path": "../../node-Readme-Generator/Develop"
+		}
+	],
+	"settings": {}
+}
