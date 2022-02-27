@@ -12,7 +12,7 @@ const questions = [{
     type:"input",
     name:"description",
     message:"Brief description of the project"
-},
+ },
 {
     type: "input",
     name: "installation",
@@ -53,11 +53,14 @@ const questions = [{
 ];
 
 // TODO: Create a function to write README file
+
 function writeToFile(fileName, data) {
    return fs.writeFileSync(path.join(process.cwd(),fileName),data)
-} caches (error); {
+}  try {
+    fs.writeFileSync(path.join(process.cwd(), fileName), data);
+  } catch (error) {
     console.log(error.message);
-}
+  };
 
 // TODO: Create a function to initialize app
 function init() { 
@@ -68,6 +71,7 @@ function init() {
         console.log(err);
       });
 }
+
 
 // Function call to initialize app
 init();
