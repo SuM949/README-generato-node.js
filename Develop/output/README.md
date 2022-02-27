@@ -25,7 +25,7 @@
 
 Clone this github repository and open the file. Ensuring you are in the correct file in the terminal, enter "npm install inquirer". Once it has installed, enter "node index.js" into the terminal
 
-[Watch the video]()
+[Watch the video](https://www.youtube.com/watch?v=6t9VgAwIuOU&list=PLfYihMMUwLhP2HRSnRKBYWHEeB4r-pqAa)
 
 
 # Usage 
