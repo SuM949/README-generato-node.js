@@ -37,35 +37,35 @@ function generateMarkdown(data) {
   
   ## Table of content
   
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-   ${renderLicenseLink(answers.license)}
-  - [Questions](#questions)
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+   ${renderLicenseLink(data.license)}
+   * [Questions](#questions)
   
   ## Installation
   Run the following script to install the packages required for the application
-  ${answers.installation}
+  ${data.installation}
 
  ## Usage 
  To use the application run the following script
   ${renderLicenseLink(data.license)}
  
   ## Contributing
- ${answers.contributing}
+  ${data.contributing}
 
  ## Tests
  To use the application run the following script
-  ${answers.tests}
+  ${data.tests}
 
   ## Questions
-   ${answers.questions} 
-  - Email me with any questions: ${answers.email}
-  - Find me on GitHub: [${answers.username}](https://github.com/${answers.username}
+   ${data.questions} 
+  - Email me with any questions: ${data.email}
+  - Find me on GitHub: ${data.username}](https://github.com/${data.username}
     
 
-
+  
 module.exports = generateMarkdown;
