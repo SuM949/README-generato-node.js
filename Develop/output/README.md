@@ -1,16 +1,10 @@
-# README
+# readme
   <img src="https://img.shields.io/badge/LICENSE-MIT-blue.svg"> 
 
-
- ## Description
+  ## Description
+  generating readme
   
-  A program that generates a quality readme file using Node and inquirer package.
-   It will prompt the user to answer questions about their project to ensure all 
-   the important information is covered such as title, installation, usage, license, 
-   contributors and testing instructions.
-    There is a question to ensure the readMe includes the user's email address and github profile link.
-
- ## Table of content
+  ## Table of content
   
 
   * [Installation](#installation)
@@ -18,34 +12,27 @@
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
-  * [Questions](#questions)
+   * [License](#license)
+   * [Questions](#questions)
+  
+  ## Installation
+  Run the following script to install the packages required for the application
+  npm
 
- ## Installation 
-
-
-Clone this github repository and open the file. Ensuring you are in the correct file in the terminal, enter "npm install inquirer". Once it has installed, enter "node index.js" into the terminal
-
-[Watch the video](https://www.youtube.com/watch?v=6t9VgAwIuOU&list=PLfYihMMUwLhP2HRSnRKBYWHEeB4r-pqAa)
-
-
-# Usage 
-A high quality readme is important for all projects. 
-
-This program ensures all key information is included.
-
- ## License 
-
-  [MIT License]()
-
-  ## Contribution 
-
-  No other contributors
+ ## Usage 
+ To use the application run the following script
+  * [License](#license)
+ 
+  ## Contributing
+  me
 
  ## Tests
-  Nothing used
-
+ To use the application run the following script
+  no
 
   ## Questions
-  Contact me with any questions: 
- [Email](mailto:sumayabile8@gmail.com) , [Github](https://github.com/SuM949)
-
+   undefined 
+  - Email me with any questions: sumayabile8@gmail.com
+  - Find me on GitHub: SuM949](https://github.com/SuM949
+    
+  

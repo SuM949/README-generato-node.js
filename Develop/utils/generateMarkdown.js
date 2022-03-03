@@ -66,6 +66,6 @@ function generateMarkdown(data) {
   - Email me with any questions: ${data.email}
   - Find me on GitHub: ${data.username}](https://github.com/${data.username}
     
-
+  `}
   
- module.exports = generateMarkdown;`}
+ module.exports = generateMarkdown;
